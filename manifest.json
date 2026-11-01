@@ -1,7 +1,10 @@
 {
-  "webVersion": "0.0.0",
+  "webVersion": "0.0.1",
   "nativeMinVersion": "1.0",
-  "package": null,
-  "sha256": null,
-  "mandatory": false
+  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.1/pmentregas-web-0.0.1.zip",
+  "sha256": "de191b28d76b3746efa8892821c28d753bcae9472638511e7d9d24d1524a9500",
+  "mandatory": false,
+  "sizeBytes": 42552,
+  "publishedAt": "2026-11-01T22:00:56.415162+00:00",
+  "releaseNotes": "Uma central de atualizações no mesmo padrão do PMobile.\n\n• Versões instalada e disponível, progresso e etapas do download.\n• Download em segundo plano e aplicação somente quando você escolher.\n• Confirmação da abertura, recuperação de falhas e nova tentativa segura.\n\nO painel completo e a recuperação exigem o novo APK 1.1. APKs anteriores precisam receber o novo APK para habilitar este atualizador."
 }
