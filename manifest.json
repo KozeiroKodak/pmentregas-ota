@@ -1,10 +1,10 @@
 {
-  "webVersion": "0.0.1",
+  "webVersion": "0.0.2",
   "nativeMinVersion": "1.0",
-  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.1/pmentregas-web-0.0.1.zip",
-  "sha256": "de191b28d76b3746efa8892821c28d753bcae9472638511e7d9d24d1524a9500",
+  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.2/pmentregas-web-0.0.2.zip",
+  "sha256": "68791d90b5d1be705cccf63a7d1703d17f1c61285be74de7c4818c55996c6c88",
   "mandatory": false,
-  "sizeBytes": 42552,
-  "publishedAt": "2026-11-01T22:00:56.415162+00:00",
-  "releaseNotes": "Uma central de atualizações no mesmo padrão do PMobile.\n\n• Versões instalada e disponível, progresso e etapas do download.\n• Download em segundo plano e aplicação somente quando você escolher.\n• Confirmação da abertura, recuperação de falhas e nova tentativa segura.\n\nO painel completo e a recuperação exigem o novo APK 1.1. APKs anteriores precisam receber o novo APK para habilitar este atualizador."
+  "sizeBytes": 44516,
+  "publishedAt": "2026-11-02T02:13:26.830717+00:00",
+  "releaseNotes": "Uma jornada mais clara para o motorista e uma Central com mais contexto.\n\n• Próxima parada com destino conferido, carga e atalho para revisar o roteiro.\n• Navegação liberada somente para endereços conferidos.\n• Data da consulta e indicação explícita de cache offline.\n• Progresso das atribuições por motorista e destaque de pendências na Central.\n• Conferência da lista carregada e edição de detalhes recolhida.\n\nAs regras de NFs, as confirmações no servidor e o canhoto físico permanecem no fluxo existente. A sugestão de sequência continua aproximada; esta versão não adiciona cálculo de trânsito ou previsão de chegada."
 }
