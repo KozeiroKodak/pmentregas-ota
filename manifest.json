@@ -1,10 +1,10 @@
 {
-  "webVersion": "0.0.5",
-  "nativeMinVersion": "1.0",
-  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.5/pmentregas-web-0.0.5.zip",
-  "sha256": "90993787c3eafb7698eaaacb3cdd1e46605eb5ce81ecefaede1d028ccf1fae9a",
+  "webVersion": "0.0.6",
+  "nativeMinVersion": "1.3",
+  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.6/pmentregas-web-0.0.6.zip",
+  "sha256": "267abd703a8c1e54c6f9b891107ddeaf74b2b3ff1ef062b96e1822a0c9ee7953",
   "mandatory": false,
-  "sizeBytes": 49048,
-  "publishedAt": "2026-11-02T03:43:11.571549+00:00",
-  "releaseNotes": "PMEntregas: limpeza de estruturas antigas e código sem uso.\n\nCSS do formulário de autenticação embutido foi retirado. Estilos copiados para recursos de cadastro, criação de senha e manter login, inexistentes no PMEntregas, foram removidos. Início, Login, perfis, motorista, Central e OTA permanecem.\n\nDados locais, filas pendentes e integrações atuais preservados."
+  "sizeBytes": 51398,
+  "publishedAt": "2026-11-02T04:28:55.137530+00:00",
+  "releaseNotes": "PMEntregas: retorno do Android e central de notificações.\n\n- O botão Voltar retorna das áreas à tela inicial e fecha a caixa de avisos antes de sair da área.\n- Administradores recebem avisos de NFs novas disponíveis e de entregas concluídas; motoristas recebem os avisos das NFs atribuídas a eles.\n- Caixa de notificações individual, com prevenção de duplicidade e proteção por conta.\n- A correção do botão do Android exige APK 1.3. Os avisos com o aplicativo fechado dependem da configuração do Firebase e da permissão de notificações no aparelho."
 }
