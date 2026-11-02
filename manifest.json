@@ -1,10 +1,10 @@
 {
-  "webVersion": "0.0.3",
+  "webVersion": "0.0.4",
   "nativeMinVersion": "1.0",
-  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.3/pmentregas-web-0.0.3.zip",
-  "sha256": "a7f6f8a645f274ab9fe32a21d661177b87c9ca855f9d192f17891b233a8ad819",
+  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.4/pmentregas-web-0.0.4.zip",
+  "sha256": "56e3f0f91b06304a40bac1fa29304ed274045f8c9a81f5f9dfae3ab19c5a6e40",
   "mandatory": false,
-  "sizeBytes": 48200,
-  "publishedAt": "2026-11-02T02:56:26.672610+00:00",
+  "sizeBytes": 49568,
+  "publishedAt": "2026-11-02T03:12:16.980708+00:00",
   "releaseNotes": "Início e Login padronizados com o PMobile, usando a identidade PMEntregas.\n\n- Tela inicial com botão Iniciar e acesso dedicado ao Login.\n- Login com mostrar/ocultar senha, retorno ao início e indicação de carregamento.\n- Autenticação e permissões existentes preservadas; senha permanece somente em memória.\n- Voltar ou sair cancela tentativas pendentes, evitando que respostas atrasadas reabram uma sessão.\n- Demonstração disponível sem credenciais; cadastro e recuperação continuam pelo PMobile."
 }
