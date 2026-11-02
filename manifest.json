@@ -1,10 +1,10 @@
 {
-  "webVersion": "0.0.7",
+  "webVersion": "0.0.8",
   "nativeMinVersion": "1.3",
-  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.7/pmentregas-web-0.0.7.zip",
-  "sha256": "d8571902aaabdab825a7974ef85651c294b29d1e8ad365c814dd2b6743a32f61",
+  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.8/pmentregas-web-0.0.8.zip",
+  "sha256": "7812af99cf6658bc2cba2f1d2766eb54d4b49d53fb0fbad2b3c0fc841aeecd04",
   "mandatory": false,
-  "sizeBytes": 51486,
-  "publishedAt": "2026-11-02T04:36:25.076210+00:00",
-  "releaseNotes": "PMEntregas: retorno do Android e central de notificações.\n\n- O botão Voltar retorna das áreas à tela inicial e fecha a caixa de avisos antes de sair da área.\n- Administradores recebem avisos de NFs novas disponíveis e de entregas concluídas; motoristas recebem os avisos das NFs atribuídas a eles.\n- Caixa de notificações individual, com prevenção de duplicidade e proteção por conta.\n- A correção do botão do Android exige APK 1.3. Os avisos com o aplicativo fechado dependem da configuração do Firebase e da permissão de notificações no aparelho."
+  "sizeBytes": 52715,
+  "publishedAt": "2026-11-02T14:43:27.659751+00:00",
+  "releaseNotes": "PMEntregas: integração com a aba RMEXPRESS do PMobile.\n\n- Mesmas telas e regras operacionais no aplicativo e no painel central.\n- Sessão validada no servidor, com isolamento entre contas.\n- No PMobile, o painel central controla o OTA e o registro das notificações.\n- Aplicativo independente mantém o login, as confirmações e o comportamento existentes."
 }
