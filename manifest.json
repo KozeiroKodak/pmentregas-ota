@@ -1,10 +1,10 @@
 {
-  "webVersion": "0.0.4",
+  "webVersion": "0.0.5",
   "nativeMinVersion": "1.0",
-  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.4/pmentregas-web-0.0.4.zip",
-  "sha256": "56e3f0f91b06304a40bac1fa29304ed274045f8c9a81f5f9dfae3ab19c5a6e40",
+  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.5/pmentregas-web-0.0.5.zip",
+  "sha256": "90993787c3eafb7698eaaacb3cdd1e46605eb5ce81ecefaede1d028ccf1fae9a",
   "mandatory": false,
-  "sizeBytes": 49568,
-  "publishedAt": "2026-11-02T03:12:16.980708+00:00",
-  "releaseNotes": "Início e Login padronizados com o PMobile, usando a identidade PMEntregas.\n\n- Tela inicial com botão Iniciar e acesso dedicado ao Login.\n- Login com mostrar/ocultar senha, retorno ao início e indicação de carregamento.\n- Autenticação e permissões existentes preservadas; senha permanece somente em memória.\n- Voltar ou sair cancela tentativas pendentes, evitando que respostas atrasadas reabram uma sessão.\n- Demonstração disponível sem credenciais; cadastro e recuperação continuam pelo PMobile."
+  "sizeBytes": 49048,
+  "publishedAt": "2026-11-02T03:43:11.571549+00:00",
+  "releaseNotes": "PMEntregas: limpeza de estruturas antigas e código sem uso.\n\nCSS do formulário de autenticação embutido foi retirado. Estilos copiados para recursos de cadastro, criação de senha e manter login, inexistentes no PMEntregas, foram removidos. Início, Login, perfis, motorista, Central e OTA permanecem.\n\nDados locais, filas pendentes e integrações atuais preservados."
 }
