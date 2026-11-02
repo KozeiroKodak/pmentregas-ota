@@ -1,10 +1,10 @@
 {
-  "webVersion": "0.0.2",
+  "webVersion": "0.0.3",
   "nativeMinVersion": "1.0",
-  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.2/pmentregas-web-0.0.2.zip",
-  "sha256": "68791d90b5d1be705cccf63a7d1703d17f1c61285be74de7c4818c55996c6c88",
+  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.3/pmentregas-web-0.0.3.zip",
+  "sha256": "a7f6f8a645f274ab9fe32a21d661177b87c9ca855f9d192f17891b233a8ad819",
   "mandatory": false,
-  "sizeBytes": 44516,
-  "publishedAt": "2026-11-02T02:13:26.830717+00:00",
-  "releaseNotes": "Uma jornada mais clara para o motorista e uma Central com mais contexto.\n\n• Próxima parada com destino conferido, carga e atalho para revisar o roteiro.\n• Navegação liberada somente para endereços conferidos.\n• Data da consulta e indicação explícita de cache offline.\n• Progresso das atribuições por motorista e destaque de pendências na Central.\n• Conferência da lista carregada e edição de detalhes recolhida.\n\nAs regras de NFs, as confirmações no servidor e o canhoto físico permanecem no fluxo existente. A sugestão de sequência continua aproximada; esta versão não adiciona cálculo de trânsito ou previsão de chegada."
+  "sizeBytes": 48200,
+  "publishedAt": "2026-11-02T02:56:26.672610+00:00",
+  "releaseNotes": "Início e Login padronizados com o PMobile, usando a identidade PMEntregas.\n\n- Tela inicial com botão Iniciar e acesso dedicado ao Login.\n- Login com mostrar/ocultar senha, retorno ao início e indicação de carregamento.\n- Autenticação e permissões existentes preservadas; senha permanece somente em memória.\n- Voltar ou sair cancela tentativas pendentes, evitando que respostas atrasadas reabram uma sessão.\n- Demonstração disponível sem credenciais; cadastro e recuperação continuam pelo PMobile."
 }
