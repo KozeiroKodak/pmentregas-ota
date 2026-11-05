@@ -1,10 +1,10 @@
 {
-  "webVersion": "0.0.10",
+  "webVersion": "0.0.11",
   "nativeMinVersion": "1.3",
-  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.10/pmentregas-web-0.0.10.zip",
-  "sha256": "519d00e49d2a946a8fa0d6c5ea68fb2fa493c03b27375a4a888e77cd87c70a6b",
+  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.11/pmentregas-web-0.0.11.zip",
+  "sha256": "dd055216bf2b85f4e645793e9090365092781f2870791d3701b7368cf589531a",
   "mandatory": false,
-  "sizeBytes": 52824,
-  "publishedAt": "2026-11-03T16:16:45.039114+00:00",
+  "sizeBytes": 53816,
+  "publishedAt": "2026-11-05T10:09:28.288549+00:00",
   "releaseNotes": "PMEntregas: integração com a aba RMEXPRESS do PMobile.\n\n- Mesmas telas e regras operacionais no aplicativo e no painel central.\n- Sessão validada no servidor, com isolamento entre contas.\n- No PMobile, o painel central controla o OTA e o registro das notificações.\n- Aplicativo independente mantém o login, as confirmações e o comportamento existentes."
 }
