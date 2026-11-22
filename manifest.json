@@ -1,10 +1,10 @@
 {
-  "webVersion": "0.0.11",
+  "webVersion": "0.0.12",
   "nativeMinVersion": "1.3",
-  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.11/pmentregas-web-0.0.11.zip",
-  "sha256": "dd055216bf2b85f4e645793e9090365092781f2870791d3701b7368cf589531a",
+  "package": "https://github.com/KozeiroKodak/pmentregas-ota/releases/download/ota-web-0.0.12/pmentregas-web-0.0.12.zip",
+  "sha256": "141273acde72a8b93ee63f97994a81c06e2f5d38586c14f4eb062535eb211f4b",
   "mandatory": false,
-  "sizeBytes": 53816,
-  "publishedAt": "2026-11-05T10:09:28.288549+00:00",
-  "releaseNotes": "PMEntregas: integração com a aba RMEXPRESS do PMobile.\n\n- Mesmas telas e regras operacionais no aplicativo e no painel central.\n- Sessão validada no servidor, com isolamento entre contas.\n- No PMobile, o painel central controla o OTA e o registro das notificações.\n- Aplicativo independente mantém o login, as confirmações e o comportamento existentes."
+  "sizeBytes": 56798,
+  "publishedAt": "2026-11-22T21:14:04.506695+00:00",
+  "releaseNotes": "PMEntregas — duas interfaces de trabalho, uma conta.\n\n- Motorista entra diretamente em Minha jornada, com Minhas entregas, roteiro e painel, sem acesso à seleção de modos.\n- Administrador autenticado vê a escolha Modo Motorista ou Acesso Administrativo; pode alternar pelo botão no cabeçalho, sem digitar a senha novamente.\n- A interface administrativa mostra Gerência e Central; a operacional mostra Painel, Entregas e Roteiros. As mesmas funções existentes são reutilizadas.\n- Um ADMIN também pode receber e confirmar suas próprias entregas; os RPCs continuam conferindo usuário, credencial e atribuição individual.\n- RMADMIN conserva a habilitação específica para atuar como motorista; NIVEL2 não ganha acesso.\n- Login não grava senha em armazenamento permanente; seleção aguarda validação de motorista antes de liberar o modo.\n- Notificações, dados operacionais, prioritários e OTA existentes preservados.\n- Testes de permissão, navegação e regressão."
 }
